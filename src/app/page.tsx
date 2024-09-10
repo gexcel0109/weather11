@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { Sun, Cloud, CloudRain, Wind, Droplet, Heart, Coffee, Umbrella } from 'lucide-react'
-export default function Home()
-export default function Component() {
+export default function Home() {
   const [currentTime, setCurrentTime] = useState(new Date())
   const [greeting, setGreeting] = useState('')
 
