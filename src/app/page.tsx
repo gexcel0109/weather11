@@ -1,7 +1,5 @@
 'use client';
- {
-  // ... (之前的组件代码保持不变)
-}
+
 import { useState, useEffect } from 'react'
 import { Sun, Cloud, CloudRain, Wind, Droplet, Heart, Coffee, Umbrella } from 'lucide-react'
 export default function Home()
